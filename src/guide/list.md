@@ -56,7 +56,7 @@ var example1 = new Vue({
 </script>
 {% endraw %}
 
-在 `v-for` 块内部，我们有完全访问父作用域的属性。 `v-for` 还支持一个可选的第二个参数为当前项的索引。
+在 `v-for` 块内部，我们有权访问父作用域的属性。 `v-for` 还支持一个可选的第二个参数为当前项的索引。
 
 ``` html
 <ul id="example-2">
